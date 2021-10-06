@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Portfolio | Mia Walter</title>
+    
+    <link href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- header 118px (alle har en b. på 1024) -->
+    <header>
+        <div class="logo">
+          <img src="" alt="logo">
+        </div>
+
+      <header>
+    
+<!-- nav -->
+    <nav class="nav">
+     <ul class="nav__list">
+       <li class="nav__item"><a href="#home" class="nav__link">HJEM<a><li>
+       <li class="nav__item"><a href="#services" class="nav__link">MINE KOMPETENCER<a><li>
+       <li class="nav__item"><a href="#about" class="nav__link">OM MIG<a><li>
+       <li class="nav__item"><a href="#work" class="nav__link">PORTFOLIO<a><li>
+        <li class="nav__item"><a href="#contact" class="nav__link">KONTAKT<a><li>
+        <ul>    
+    </nav>
+
+  <!-- main -->
+  <main>
+    <h1>MW | Design</h1>
+    <p>Multimediedesigner</p>
+</main>
+
+ <!-- Intro -->
+    <section class="intro" id="home">
+      <h1 class="section__titel section__titel--intro">MW | Design</h1>
+      <p class="section__subtitel section__subtitel--intro">Multimediedesigner</p>
+      <img src="/Image/241034356_434594487882332_1389546456084580448_n.jpg" alt="Billede af Mia" class="intro__image">
+    </section>
+
+    <!-- services start-->
+
+    <section class="my-services" id="services">
+      <h2 class="section_titel section_titel--services">Hvad laver jeg?<h2>
+        
+        <div class="services">
+
+          <div class="service_2">
+            <h3>GRAFISK DESIGN</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, porro eligendi doloribus dicta non quos minima asperiores, incidunt vitae dolor numquam voluptatem atque, distinctio est impedit nihil magnam ullam nesciunt.</p>
+          </div><!-- Kompetencer stop -->
+
+          <div class="service_2">
+            <h3>DESIGN & LAYOUT</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim labore cupiditate modi iste eum dolore officiis sed eos repudiandae neque eveniet aliquid, assumenda autem rem impedit id laborum, magnam unde.</p>
+          </div><!-- Kompetencer stop -->
+
+          <div class="service_2">
+            <h3>UDVIKLING</h3>
+            <p>Jeg har kendskab til at programerer i Html og CSS</p>
+          </div><!-- Kompetencer stop -->
+        <div>
+          
+          <!-- Button -->
+          <a href="#work" class="btn">Se mit arbejde</a>
+    </section>
+
+      <!-- Om mig -->
+      <section class="about-me" id="about">
+        <h2 class="section__titel section__titel--about">Hvem er jeg?</h2>
+        <p class="section__subtitel section__subtitel--about">Multimediedesigner</p>
+
+        <div class="about-me__body">
+          <p>Jeg brænder og lever for at kunne udfolde mig kreativt og visuelt til dagligt. Lysten til at skabe gode oplevelser på nettet samt at lave spændende og opsigtsvækkende designs, driver mig i stor grad.  Jeg elsker at kunne få lov til at sætte MIT præg på verden.</p>
+
+          <p>Kommunikation og kreativitet er mine ypperste kompetencer. Jeg tænker ud af boksen og er altid engageret i at få mine kreative ideer fulgt til dørs - selvom det nogle gange kan virke uoverskueligt. Jeg giver aldrig op. Nye og svære opgaver giver mig tværtimod blod på tanden da jeg er vild med nye spændende udfordringer.</p>
+
+          <p>Som person er jeg enormt struktureret og kreativ. Dog er jeg meget ubeslutsom og laver derfor tingene flere gange, på flere forskellige designs, så jeg til sidst kan sammensætte de gode og mindre gode elementer. Jeg er konstant på udkig efter muligheder for at udvikle mine evner og udvide min horisont.Jeg lægger enorm stor vægt på at arbejde i et inspirerende miljø, hvor kommunikation, og personlig faglig udvikling vejer tungt.</p> 
+        </div>
+
+        <img src="/Image/paris.JPG" alt="Mia i paris" class="about-me__img">
+      </section>
+
+      <!-- My work -->
+    </div>
+      <section class="my-work" id="work"> 
+        <h2 class="section__titel section__titel--work">Min Portfolio</h2>
+        <p class="section__subtitel section__subtitel--work">Her kan du se, hvad jeg har lavet</p>
+        <div>
+         <!-- knapper -->
+        <div class="portfolio_button">
+          <div id="Container">
+            <button class="btn active" onclick="filterSelection('Vis alt')">Vis alt</button>
+            <button class="btn" onclick="filterSelection('Grafisk')">Grafisk</button>
+            <button class="btn" onclick="filterSelection('Webdesign')">Webdesign</button>
+            <button class="btn" onclick="filterSelection('Logo')">Logo</button>
+            <button class="btn" onclick="filterSelection('1.sem')">1.sem</button>
+            <button class="btn" onclick="filterSelection('2.sem')">2.sem</button>
+            <button class="btn" onclick="filterSelection('3.sem')">3.sem</button>
+          </div>
+          <br>
+          <br>
+          <br>
+         <div>
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="/Image/billeder_2/dronningen.jpg" alt="dronnigen" class="portfolio__img">
+          </a>
+
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="Image/Christania redigeret.jpg -kopi.jpg" alt="Christania" class="portfolio__img">
+          </a>
+        
+          <div class="portfolio">
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="/Image/majse.png" alt="majse" class="portfolio__img">
+          </a>
+       
+          <div class="portfolio">
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="/Image/nico.png" alt="nico" class="portfolio__img">
+          </a>
+    
+          <div class="portfolio">
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="/Image/billeder_2/maleri.jpg" alt="maleri" class="portfolio__img">
+          </a>
+
+          <div class="portfolio">
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="/Image/billeder_2/mikkel.jpg" alt="mikkel" class="portfolio__img">
+          </a>
+
+          <div class="portfolio">
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="/Image/billeder_2/mini.jpg" alt="mini" class="portfolio__img">
+          </a>
+
+          <div class="portfolio">
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="/Image/billeder_2/rodulfsteiner.jpg" alt="rodulfsteiner" class="portfolio__img">
+          </a>
+
+          <div class="portfolio">
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="/Image/billeder_2/tegning.jpg" alt="tegning" 
+            class="portfolio__img">
+          </a>
+
+          <div class="portfolio">
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="/Image/Mia Walter.png" alt="logo" 
+            class="portfolio__img">
+          </a>
+
+          <div class="portfolio">
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="/Image/billeder_2/12tal.jpg" alt="mini 12" 
+            class="portfolio__img">
+          </a>
+
+          <div class="portfolio">
+          <!-- portfolio item -->
+          <a href="#" class="portfolio__item">
+            <img src="/Image/billeder_2/chips.jpg" alt="chips" 
+            class="portfolio__img">
+          </a>
+        </div>
+      </section>
+
+       <!-- footer-->
+       <footer class="footer" id="contact">
+          
+         <a href="Mailto:cph-mw256@cphbusiness.dk" class="footer__link">CPH-MW256@cphbusiness.dk
+        </a>
+         <ul class="social-list">
+           <li class="social-list__item"><a class="socail-list__link" href="https://facebook.com">a</a></li>
+
+           <li class="social-list__item"><a class="socail-list__link" href="https://facebook.com">b</a></li>
+
+           <li class="social-list__item"><a class="socail-list__link" href="https://facebook.com">c</a></li>
+
+           <li class="social-list__item"><a class="socail-list__link" href="https://facebook.com">d</a></li>
+           <ul>
+        <footer>
+        
+          
+    
+
+
+
+
+   
